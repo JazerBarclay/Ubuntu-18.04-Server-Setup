@@ -1,6 +1,17 @@
 # Ubuntu-18.04-Server-Setup
 A basic setup and installation guide for ubuntu server 18.04 on linode<br>
-Video: [My First 7 Minutes On An Ubuntu Server - Essential Security for Linux Servers](https://www.youtube.com/watch?v=KjuSf_aPYFg)
+Video: [My First 7 Minutes On An Ubuntu Server - Essential Security for Linux Servers](https://www.youtube.com/watch?v=KjuSf_aPYFg)<br>
+To run the installation script, run
+```
+# Download script
+wget https://raw.githubusercontent.com/jazerbarclay/Ubuntu-18.04-Server-Setup/master/install.sh
+# Make it runnable
+chmod +x install.sh
+# Run script with user and domain 
+# Note: password for new account asked on run
+sudo ./install.sh [your_username] [your.domain.name]
+```
+<br>
 
 ## Update, Upgrade and Remove old
 ```
