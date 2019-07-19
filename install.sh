@@ -1,4 +1,6 @@
 #!/bin/bash
+# Source: https://github.com/JazerBarclay/Ubuntu-18.04-Server-Setup
+# Author: Jazer Barclay
 
 display_usage() { 
 	echo "This script must be run as root!"
