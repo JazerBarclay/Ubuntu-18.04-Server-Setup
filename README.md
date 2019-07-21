@@ -56,8 +56,8 @@ groupadd wheel
 groupadd dev
 ```
 
-## Update the sudoers file to include " %wheel ALL=(ALL) ALL " and " Defaults rootpw "
-I add the new wheel group back to the sudoers file. Defaults rootpw will make all sudo commands require the root password rather than the users password. I set this on servers for a separate level of security.
+## Update the sudoers file
+I add the new wheel group back to the sudoers file `%wheel ALL=(ALL) ALL`. `Defaults rootpw` will make all sudo commands require the root password rather than the users password. I set this on servers for a separate level of security.
 ```
 vim /etc/sudoers
 ```
